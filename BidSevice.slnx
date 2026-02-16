@@ -2,4 +2,5 @@
   <Project Path="BidSevice/BidSevice.csproj" />
   <Project Path="Domain/Domain.csproj" />
   <Project Path="Infrastructure/Infrastructure.csproj" Id="04b4b2ab-f189-4647-afba-e9f6151b032b" />
+  <Project Path="Tests/Tests.csproj" Id="ea598e0c-9d37-4425-8fe6-8c36d0316077" />
 </Solution>

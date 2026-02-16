@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    public class Reviewer : User
+    public class Category
     {
-        public Category Competency {  get; set; }
+        public Guid CategoryId { get; set; }
+        public string CategoryName { get; set; }
     }
 }

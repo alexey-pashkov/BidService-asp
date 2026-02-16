@@ -1,4 +1,5 @@
 using Infrastructure;
+using Microsoft.EntityFrameworkCore;
 
 namespace BidSevice
 {
@@ -10,7 +11,7 @@ namespace BidSevice
 
             // Add services to the container.
 
-            builder.Services.AddDbContext<AppDbContext>()
+            builder.Services.AddDbContext<AppDbContext>(options => options.)
 
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
