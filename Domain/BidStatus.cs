@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    public enum ApplicationStatus
+    public enum BidStatus
     {
         Project,
         Created,

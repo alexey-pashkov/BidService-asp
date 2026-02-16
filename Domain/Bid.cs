@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    public class Submission
+    public class Bid
     {
-        public Guid ApplicationId { get; set; }
+        public Guid BidnId { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
-        public SubmissionCreator Author { get; set; }
+        public BidCreator Author { get; set; }
         public Reviewer? Reviewer { get; set; }
-        public SubmissionStatus Status { get; set; }
+        public BidStatus Status { get; set; }
 
-        public Submission(string title, string description, SubmissionCreator author, SubmissionStatus status) 
+        public Bid(string title, string description, BidCreator author, BidStatus status) 
         {
             Title = title;
             Description = description;
