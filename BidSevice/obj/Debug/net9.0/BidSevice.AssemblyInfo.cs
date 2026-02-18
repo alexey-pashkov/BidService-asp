@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BidSevice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9710b17ff66f0e49129f157ff54402ba066c698")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abbc8a6534ca119c2d09670c8e44612ac67e6ba5")]
 [assembly: System.Reflection.AssemblyProductAttribute("BidSevice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BidSevice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

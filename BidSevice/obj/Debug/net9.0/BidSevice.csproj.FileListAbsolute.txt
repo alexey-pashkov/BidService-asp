@@ -22,6 +22,10 @@ D:\Мои документы\c#\BidSevice\BidSevice\bin\Debug\net9.0\Microsoft.E
 D:\Мои документы\c#\BidSevice\BidSevice\bin\Debug\net9.0\Microsoft.OpenApi.dll
 D:\Мои документы\c#\BidSevice\BidSevice\bin\Debug\net9.0\Npgsql.dll
 D:\Мои документы\c#\BidSevice\BidSevice\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Мои документы\c#\BidSevice\BidSevice\bin\Debug\net9.0\Domain.dll
+D:\Мои документы\c#\BidSevice\BidSevice\bin\Debug\net9.0\Infrastructure.dll
+D:\Мои документы\c#\BidSevice\BidSevice\bin\Debug\net9.0\Infrastructure.pdb
+D:\Мои документы\c#\BidSevice\BidSevice\bin\Debug\net9.0\Domain.pdb
 D:\Мои документы\c#\BidSevice\BidSevice\obj\Debug\net9.0\BidSevice.csproj.AssemblyReference.cache
 D:\Мои документы\c#\BidSevice\BidSevice\obj\Debug\net9.0\rpswa.dswa.cache.json
 D:\Мои документы\c#\BidSevice\BidSevice\obj\Debug\net9.0\BidSevice.GeneratedMSBuildEditorConfig.editorconfig

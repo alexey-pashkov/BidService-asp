@@ -5,9 +5,9 @@ namespace Infrastructure
 {
     public class AppDbContext : DbContext
     {
-        DbSet<BidCreator> bidCreators = null!;
-        DbSet<Bid> bids = null!;
-        DbSet<Reviewer> reviewers = null!;
+        public DbSet<BidCreator> bidCreators = null!;
+        public DbSet<Bid> bids = null!;
+        public DbSet<Reviewer> reviewers = null!;
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
