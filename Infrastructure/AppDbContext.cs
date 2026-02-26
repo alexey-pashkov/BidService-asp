@@ -13,9 +13,6 @@ namespace Infrastructure
         {
         }
 
-        protected AppDbContext()
-        {
-        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

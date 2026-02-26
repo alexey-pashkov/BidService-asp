@@ -7,32 +7,23 @@ using Docker.DotNet.Models;
 using Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Testcontainers.PostgreSql;
+using Testcontainers.Xunit;
+using Xunit.Sdk;
 
 namespace Tests.Fixtures
 {
-    public class TestDbFixture : IDisposable
+    public class TestDbFixture : ContainerFixture<PostgreSqlBuilder, PostgreSqlContainer>
     {
-        private PostgreSqlContainer dbContainer;
+        public string ConnectionString { get { return Container.GetConnectionString(); } }
 
-        //public PostgreSqlContainer DbContainer { get { return dbContainer; } }
-
-        public TestDbFixture()
+        public TestDbFixture(IMessageSink messageSink) : base(messageSink)
         {
-            var ContainerConfig = new PostgreSqlConfiguration("test_db", "postgres", "postgres");
-
-            this.dbContainer = new PostgreSqlContainer(ContainerConfig);
-
-            this.dbContainer.StartAsync();
         }
 
-        public void Dispose()
+        protected override PostgreSqlBuilder Configure(PostgreSqlBuilder builder)
         {
-            this.dbContainer.StopAsync();
+            return builder.WithImage("postgres:18.2-alpine3.22");
         }
 
-        public string GetConnectionString()
-        {
-            return this.dbContainer.GetConnectionString();
-        }
     }
 }

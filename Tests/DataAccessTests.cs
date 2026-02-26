@@ -16,13 +16,26 @@ namespace Tests
         }
 
         [Fact]
+        public void TestDbConnection()
+        {
+            var contextOptions = new DbContextOptionsBuilder<AppDbContext>()
+                    .UseNpgsql(this.fixture.ConnectionString)
+                    .Options;
+
+            using (var context = new AppDbContext(contextOptions))
+            {
+                Assert.True(context.Database.CanConnect());
+            }
+        }
+
+        [Fact]
         public void TestAddEntity()
         {
-            var contextOptionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
+            var contextOptions = new DbContextOptionsBuilder<AppDbContext>()
+                    .UseNpgsql(this.fixture.ConnectionString)
+                    .Options;
 
-            contextOptionsBuilder.UseNpgsql(this.fixture.GetConnectionString());
-
-            using (var context = new AppDbContext(contextOptionsBuilder.Options))
+            using (var context = new AppDbContext(contextOptions))
             {
                 var bidCreator = new BidCreator { Name = "John Doe", Email = "doe@email.org" };
 
@@ -32,7 +45,7 @@ namespace Tests
 
             BidCreator fromDb;
 
-            using (var context = new AppDbContext(contextOptionsBuilder.Options))
+            using (var context = new AppDbContext(contextOptions))
             {
                 fromDb = context.bidCreators.FirstOrDefault();
             }

@@ -16,3 +16,21 @@ D:\Мои документы\c#\BidSevice\Infrastructure\obj\Debug\net9.0\refint
 D:\Мои документы\c#\BidSevice\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
 D:\Мои документы\c#\BidSevice\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
 D:\Мои документы\c#\BidSevice\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
+D:\coding\c#\BidService-asp\Infrastructure\bin\Debug\net9.0\Infrastructure.deps.json
+D:\coding\c#\BidService-asp\Infrastructure\bin\Debug\net9.0\Infrastructure.runtimeconfig.json
+D:\coding\c#\BidService-asp\Infrastructure\bin\Debug\net9.0\Infrastructure.dll
+D:\coding\c#\BidService-asp\Infrastructure\bin\Debug\net9.0\Infrastructure.pdb
+D:\coding\c#\BidService-asp\Infrastructure\bin\Debug\net9.0\Domain.dll
+D:\coding\c#\BidService-asp\Infrastructure\bin\Debug\net9.0\Domain.pdb
+D:\coding\c#\BidService-asp\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.AssemblyReference.cache
+D:\coding\c#\BidService-asp\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\c#\BidService-asp\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
+D:\coding\c#\BidService-asp\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
+D:\coding\c#\BidService-asp\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\coding\c#\BidService-asp\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json
+D:\coding\c#\BidService-asp\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date
+D:\coding\c#\BidService-asp\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
+D:\coding\c#\BidService-asp\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
+D:\coding\c#\BidService-asp\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
+D:\coding\c#\BidService-asp\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
+D:\coding\c#\BidService-asp\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll

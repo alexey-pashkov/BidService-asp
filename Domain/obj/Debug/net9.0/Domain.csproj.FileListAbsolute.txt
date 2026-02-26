@@ -10,3 +10,15 @@ D:\Мои документы\c#\BidSevice\Domain\obj\Debug\net9.0\Domain.dll
 D:\Мои документы\c#\BidSevice\Domain\obj\Debug\net9.0\refint\Domain.dll
 D:\Мои документы\c#\BidSevice\Domain\obj\Debug\net9.0\Domain.pdb
 D:\Мои документы\c#\BidSevice\Domain\obj\Debug\net9.0\ref\Domain.dll
+D:\coding\c#\BidService-asp\Domain\bin\Debug\net9.0\Domain.deps.json
+D:\coding\c#\BidService-asp\Domain\bin\Debug\net9.0\Domain.dll
+D:\coding\c#\BidService-asp\Domain\bin\Debug\net9.0\Domain.pdb
+D:\coding\c#\BidService-asp\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\c#\BidService-asp\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
+D:\coding\c#\BidService-asp\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
+D:\coding\c#\BidService-asp\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
+D:\coding\c#\BidService-asp\Domain\obj\Debug\net9.0\Domain.sourcelink.json
+D:\coding\c#\BidService-asp\Domain\obj\Debug\net9.0\Domain.dll
+D:\coding\c#\BidService-asp\Domain\obj\Debug\net9.0\refint\Domain.dll
+D:\coding\c#\BidService-asp\Domain\obj\Debug\net9.0\Domain.pdb
+D:\coding\c#\BidService-asp\Domain\obj\Debug\net9.0\ref\Domain.dll

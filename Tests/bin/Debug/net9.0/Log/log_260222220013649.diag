@@ -1,0 +1,18 @@
+2026-02-22T22:00:13.6630906+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.9.1+cb5afc3bb9bb01ebd75b57f89e8358b914ee2a49
+2026-02-22T22:00:13.6760180+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2026-02-22T22:00:13.6772224+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2026-02-22T22:00:13.6772288+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 22:00:13.621
+2026-02-22T22:00:13.6772871+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 14460
+2026-02-22T22:00:13.6773136+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 9.0.13
+2026-02-22T22:00:13.6773348+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\9.0.13\System.Private.CoreLib.dll
+2026-02-22T22:00:13.6773501+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2026-02-22T22:00:13.6774017+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: D:\coding\c#\BidService-asp\Tests\bin\Debug\net9.0\Tests.dll
+2026-02-22T22:00:13.6775067+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory D:\coding\c#\BidService-asp\Tests\bin\Debug\net9.0\Log --results-directory D:\coding\c#\BidService-asp\TestResults --client-port 49618'
+2026-02-22T22:00:13.6831877+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2026-02-22T22:00:13.7090082+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2026-02-22T22:00:13.7324582+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2026-02-22T22:00:14.4020677+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: '30ea7c6e-dd24-4152-a360-1387158cd41d' Version: '3.2.2' DisplayName: 'xUnit.net v3 Microsoft.Testing.Platform test framework' Description: 'xUnit.net v3 Microsoft.Testing.Platform test framework'
+2026-02-22T22:00:14.4085566+00:00 xUnit.net INFORMATION xUnit.net v3 In-Process Runner v3.2.2+728c1dce01 (64-bit .NET 9.0.13)
+2026-02-22T22:00:14.4490783+00:00 xUnit.net INFORMATION   Discovering: Tests
+2026-02-22T22:00:14.5231504+00:00 xUnit.net INFORMATION   Discovered:  Tests
+2026-02-22T22:00:14.5465779+00:00 xUnit.net INFORMATION   Starting:    Tests
